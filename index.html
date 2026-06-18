@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+
+  <!-- Primary SEO -->
+  <title>Samia Rahman Sashi | Mathematics Educator</title>
+  <meta name="description" content="Portfolio of Samia Rahman Sashi, Mathematics Educator, University of Dhaka graduate, MEd candidate, and Junior Teacher at BAF Shaheen English Medium College." />
+  <meta name="author" content="Samia Rahman Sashi" />
+  <meta name="theme-color" content="#B8A2E3" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Samia Rahman Sashi | Mathematics Educator" />
+  <meta property="og:description" content="Mathematics Educator, University of Dhaka graduate, MEd candidate, and Junior Teacher at BAF Shaheen English Medium College." />
+  <meta property="og:image" content="assets/images/og-cover.svg" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Samia Rahman Sashi | Mathematics Educator" />
+  <meta name="twitter:description" content="Mathematics Educator, University of Dhaka graduate, MEd candidate, and Junior Teacher at BAF Shaheen English Medium College." />
+  <meta name="twitter:image" content="assets/images/og-cover.svg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/icons/favicon.svg" />
+
+  <!-- Fonts: Fraunces (display, soft optical serif) + Mulish (humanist body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Mulish:ital,wght@0,300..700;1,300..500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured data: Person schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Samia Rahman Sashi",
+    "alternateName": "Sashi",
+    "jobTitle": "Mathematics Educator",
+    "description": "Mathematics Educator, University of Dhaka graduate, MEd candidate, and Junior Teacher at BAF Shaheen English Medium College.",
+    "worksFor": {
+      "@type": "EducationalOrganization",
+      "name": "BAF Shaheen English Medium College"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Dhaka"
+    },
+    "knowsAbout": ["Mathematics", "Education", "Curriculum and Instruction", "Educational Psychology"]
+  }
+  </script>
+</head>
+<body>
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollBar"></span></div>
+
+  <!-- Atmospheric layers (decorative) -->
+  <div class="atmosphere" aria-hidden="true">
+    <div class="glow glow-a"></div>
+    <div class="glow glow-b"></div>
+    <canvas id="particles"></canvas>
+    <div id="petals" class="petals"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand" aria-label="Samia Rahman Sashi — home">
+        <span class="nav-brand-mark">∑</span>
+        <span class="nav-brand-name">Sashi</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#learning">Learning</a>
+        <a href="#notes">Notes</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch colour theme" aria-pressed="false">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><g class="rays"><line x1="12" y1="1.5" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22.5" y2="12"/><line x1="4.4" y1="4.4" x2="6.2" y2="6.2"/><line x1="17.8" y1="17.8" x2="19.6" y2="19.6"/><line x1="4.4" y1="19.6" x2="6.2" y2="17.8"/><line x1="17.8" y1="6.2" x2="19.6" y2="4.4"/></g></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 7 7 0 1 0 20 14.5z"/></svg>
+        </button>
+
+        <button id="menuToggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section id="hero" class="hero" aria-labelledby="hero-name">
+      <div class="hero-inner">
+        <p class="hero-eyebrow reveal-line">A portfolio</p>
+        <h1 id="hero-name" class="hero-name">
+          <span class="hero-name-first" aria-hidden="true">Samia Rahman</span>
+          <span class="hero-name-big" aria-hidden="true">Sashi</span>
+          <span class="visually-hidden">Samia Rahman Sashi</span>
+        </h1>
+        <p class="hero-tagline reveal-line">Mathematics Educator &nbsp;•&nbsp; Lifelong Learner &nbsp;•&nbsp; Mentor</p>
+        <p class="hero-subtext reveal-line">
+          BSc &amp; MSc in Mathematics, University of Dhaka<br />
+          Currently pursuing MEd at the Institute of Education and Research (IER), University of Dhaka<br />
+          Junior Teacher, BAF Shaheen English Medium College (SEMC)
+        </p>
+        <div class="hero-actions reveal-line">
+          <a href="#contact" class="btn btn-primary">Contact me</a>
+          <a id="heroLinkedIn" href="#" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <a href="#about" class="hero-scroll" aria-label="Scroll to about">
+        <span class="hero-scroll-dot"></span>
+        <span class="hero-scroll-label">scroll</span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about reveal">
+      <div class="section-head">
+        <span class="eyebrow">About</span>
+        <h2 class="section-title">A quiet devotion to teaching</h2>
+      </div>
+      <div class="about-grid">
+        <div class="portrait-card" aria-label="Portrait placeholder">
+          <div class="portrait-pattern" aria-hidden="true"></div>
+          <div class="portrait-inner">
+            <span class="portrait-glyph">∮</span>
+            <p class="portrait-note">Professional Portrait<br />Coming Soon</p>
+          </div>
+        </div>
+        <div class="about-body">
+          <p>Sashi is a mathematics educator with a passion for helping students build confidence, curiosity, and analytical thinking — the quiet skills that outlast any single lesson.</p>
+          <p>A graduate of the <strong>University of Dhaka</strong> with both a BSc and an MSc in Mathematics, she pairs depth in the subject with a genuine care for how people learn.</p>
+          <p>She is currently pursuing a <strong>Master of Education (MEd)</strong> at the Institute of Education and Research (IER), University of Dhaka, deepening her expertise in teaching and learning.</p>
+          <p>Above all, she is dedicated to creating meaningful educational experiences that encourage lifelong learning and intellectual growth.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section education reveal">
+      <div class="section-head">
+        <span class="eyebrow">Education</span>
+        <h2 class="section-title">A path through Dhaka</h2>
+      </div>
+      <ol class="timeline" id="timeline">
+        <li class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <h3>Bachelor of Science — Mathematics</h3>
+            <p class="timeline-org">University of Dhaka</p>
+            <p class="timeline-note">Foundations in pure and applied mathematics.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <h3>Master of Science — Mathematics</h3>
+            <p class="timeline-org">University of Dhaka</p>
+            <p class="timeline-note">Advanced study and independent research.</p>
+          </div>
+        </li>
+        <li class="timeline-item is-ongoing">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <h3>Master of Education (MEd) <span class="tag">Ongoing</span></h3>
+            <p class="timeline-org">Institute of Education and Research (IER), University of Dhaka</p>
+            <p class="timeline-note">Turning subject mastery into teaching craft.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- TEACHING -->
+    <section id="teaching" class="section teaching reveal">
+      <div class="section-head">
+        <span class="eyebrow">Teaching Journey</span>
+        <h2 class="section-title">Where the work happens</h2>
+      </div>
+      <div class="card-grid">
+        <article class="lift-card lift-card--current">
+          <span class="card-status">Current</span>
+          <h3>Junior Teacher</h3>
+          <p class="card-org">BAF Shaheen English Medium College (SEMC)</p>
+          <p>Teaching mathematics with patience and structure — building confidence one student at a time.</p>
+        </article>
+        <article class="lift-card is-future">
+          <span class="card-status">Ahead</span>
+          <h3>Future Teaching Experience</h3>
+          <p>Room to grow across classrooms, levels, and learners.</p>
+        </article>
+        <article class="lift-card is-future">
+          <span class="card-status">Ahead</span>
+          <h3>Future Academic Contributions</h3>
+          <p>Research, materials, and ideas worth sharing.</p>
+        </article>
+        <article class="lift-card is-future">
+          <span class="card-status">Ahead</span>
+          <h3>Future Educational Leadership</h3>
+          <p>Guiding programmes and mentoring fellow educators.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section id="quote" class="section quote-section reveal" aria-label="Favourite mathematical quote">
+      <div class="quote-pattern" aria-hidden="true"></div>
+      <figure class="quote-figure">
+        <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+        <blockquote id="quoteText">Pure mathematics is, in its way, the poetry of logical ideas.</blockquote>
+        <figcaption id="quoteAuthor">— Albert Einstein</figcaption>
+      </figure>
+    </section>
+
+    <!-- CURRENTLY LEARNING -->
+    <section id="learning" class="section learning reveal">
+      <div class="section-head">
+        <span class="eyebrow">Currently Learning</span>
+        <h2 class="section-title">Always a student</h2>
+        <p class="section-lede">Part of the ongoing MEd journey at IER, University of Dhaka.</p>
+      </div>
+      <div class="learning-grid" id="learningGrid"><!-- populated by script.js --></div>
+    </section>
+
+    <!-- NOTES & RESOURCES -->
+    <section id="notes" class="section notes reveal">
+      <div class="section-head">
+        <span class="eyebrow">Notes &amp; Resources</span>
+        <h2 class="section-title">For my students</h2>
+        <p class="section-lede">Materials to study from, anytime. New resources are added as they're ready.</p>
+      </div>
+      <div class="notes-grid" id="notesGrid"><!-- populated by script.js --></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects reveal">
+      <div class="section-head">
+        <span class="eyebrow">Featured Projects</span>
+        <h2 class="section-title">Work in progress</h2>
+      </div>
+      <div class="projects-grid" id="projectsGrid"><!-- populated by script.js --></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact reveal">
+      <div class="section-head center">
+        <span class="eyebrow">Contact</span>
+        <h2 class="section-title">Say hello</h2>
+      </div>
+      <div class="contact-actions">
+        <a id="emailBtn" href="#" class="btn btn-primary">Email me</a>
+        <a id="linkedInBtn" href="#" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="contact-closing">Thank you for visiting. I hope this space reflects my journey as an educator, learner, and advocate for meaningful education.</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Samia Rahman Sashi · Mathematics Educator</p>
+  </footer>
+
+  <!-- Pixel cat companion -->
+  <div id="cat" class="cat" aria-hidden="true">
+    <div class="cat-tooltip" id="catTooltip"></div>
+    <!-- pixel cat rendered by script.js -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
